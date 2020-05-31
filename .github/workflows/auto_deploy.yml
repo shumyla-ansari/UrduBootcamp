@@ -31,5 +31,4 @@ jobs:
       run: npm install --global surge
     - name: deploying using surge
       run: surge ./ urdubootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        
